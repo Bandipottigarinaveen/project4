@@ -1,0 +1,19 @@
+# login.py
+
+def login(username, password):
+    A simple login function that checks the username and password.
+
+    Args:
+    username (str): The username input by the user.
+    password (str): The password input by the user.
+
+    Returns:
+    str: A message indicating whether login was successful or not.
+
+    correct_username = "user"
+    correct_password = "password"
+
+    if username == correct_username and password == correct_password:
+        return "Login successful!"
+    else:
+        return "Invalid username or password."
